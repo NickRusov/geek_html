@@ -4,43 +4,52 @@
 <head>
     <meta charset="UTF-8">
     <title>Контакты</title>
-</head>
+    <link rel="stylesheet" href="css/style.css"> </head>
 
 <body>
-    <ul class="menu">
-        <li><a href="index.html">Главная</a></li>
-        <li><a href="catalogue.html">Каталог</a></li>
-        <li><a href="#">Контакты</a></li>
-    </ul>
-    <hr>
-    <h1>Хотите что-то спросить?</h1>
-    <form action=""> Ваше имя
-        <input type="text" name="name" placeholder="Имя">
+    <div class="header">
+        <ul class="menu">
+            <li><a href="index.html">Главная</a></li>
+            <li><a href="catalogue.html">Каталог</a></li>
+            <li><a href="#">Контакты</a></li>
+        </ul>
+    </div>
+    <div class="feedback">
+        <hr>
+        <h1>Хотите что-то спросить?</h1>
+        <form action=""> Ваше имя
+            <br>
+            <input type="text" name="name" placeholder="Имя">
+            <br>
+            <br>
+            <input type="e-mail" name="email" placeholder="Email">
+            <br>
+            <br> Ваш пол
+            <br> M
+            <input type="radio" name="sex" value="m" checked>
+            <br> Ж
+            <input type="radio" name="sex" value="w">
+            <br>
+            <br> Ваши увлечения
+            <br> Спорт
+            <input type="checkbox" name="sports">
+            <br> IT
+            <input type="checkbox" name="it" checked>
+            <br> Музыка
+            <input type="checkbox" name="music">
+            <br>
+            <br>Вопрос
+            <br>
+            <textarea name="question" cols="30" rows="4" placeholder="Введите ваш вопрос здесь"></textarea>
+            <br>
+            <input type="submit" value="Спросить">
+            <input type="reset" value="Очистить"> </form>
+        <br> Наш адрес: <b>Нижний Новгород, проспект Гагарина, 23</b>
         <br>
-        <br> Ваш пол
-        <br> M
-        <input type="radio" name="sex" value="m" checked>
-        <br> Ж
-        <input type="radio" name="sex" value="w">
-        <br>
-        <br> Ваши увлечения
-        <br> Спорт
-        <input type="checkbox" name="sports">
-        <br> IT
-        <input type="checkbox" name="it" checked>
-        <br> Музыка
-        <input type="checkbox" name="music">
-        <br>
-        <br>Вопрос
-        <br>
-        <textarea name="question" id="" cols="30" rows="4" placeholder="Введите ваш вопрос здесь"></textarea>
-        <br>
-        <input type="submit" value="Спросить">
-        <input type="reset" value="Очистить"> </form>
-    <br> Наш адрес: <b>Нижний Новгород, проспект Гагарина, 23</b><br>
-    
-    <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A1094be2a28e75abfd40fc581007aa89bd9f382a96ea8175c319e4a2292edff71&amp;width=528&amp;height=396&amp;lang=ru_RU&amp;scroll=true"></script>
-    <hr>
-    <h6>Все права защищены &copy;</h6> </body>
+        <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A1094be2a28e75abfd40fc581007aa89bd9f382a96ea8175c319e4a2292edff71&amp;width=528&amp;height=396&amp;lang=ru_RU&amp;scroll=true"></script>
+        <hr> </div>
+    <div class="footer">
+        <h6>Все права защищены &copy;</h6> </div>
+</body>
 
 </html>

@@ -4,39 +4,73 @@
 <head>
     <meta charset="UTF-8">
     <title>Оптическая мышь</title>
-</head>
+    <link rel="stylesheet" href="../css/style.css"> </head>
 
 <body>
-    <ul class="menu">
-        <li><a href="../index.html">Главная</a></li>
-        <li><a href="../catalogue.html">Каталог</a></li>
-        <li><a href="../contacts.html">Контакты</a></li>
-    </ul>
-    <hr>
-    <h1>Оптическая мышь</h1>
-    <a href="../img/big/mouse.jpg" target="_blank"><img src="../img/small/mouse.jpg" alt="mouse"></a>
-    <h4>Описание товара</h4>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed laboriosam dolorem accusamus iure deserunt aperiam, excepturi neque nihil enim minima aliquam, quidem soluta corporis! Facilis mollitia, cupiditate minima veniam hic?</p>
-    <h4>Характеристики товара</h4>
-    <ul>
-        <li>DPI: 800</li>
-        <li>Клавиши
-            <ol>
-                <li>Левая клавиша</li>
-                <li>Правая клавиша</li>
-                <li>Средняя клавиша(колёсико)</li>
-                <li>Боковая лавиша вверх/назад</li>
-                <li>Боковая клавиша вниз/вперёд</li>
-            </ol>
-        </li>
-    </ul>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad perferendis dolore, eveniet incidunt, eius, voluptates velit qui architecto, quos totam libero voluptatem odio id nulla ipsam! Qui minima blanditiis amet!</p>
-    <h4>Подробное описание</h4>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores dicta consequuntur, iusto temporibus adipisci, nemo rem, dolore asperiores, veniam nam ullam perspiciatis! Rem eius aliquid voluptatem quas tempora debitis deserunt sed placeat&nbsp;eaque ea repellat, sint accusantium voluptatum repellendus pariatur dolores fugiat totam, facilis ducimus, quod aspernatur, omnis earum. Vitae et aliquid voluptatem odit labore eaque ullam? Maxime facere quia earum, expedita excepturi minima labore ex praesentium, dicta dolorum pariatur adipisci est neque laboriosam! Nam, voluptas reiciendis natus consectetur quia!</p>
-    <h4>Рекомендации по применению</h4>
-    <p>Мыши одинаково удобны для игр и&nbsp;работы на&nbsp;ПК</p>
-    <hr>
+    <div class="header">
+        <ul class="menu">
+            <li><a href="../index.html">Главная</a></li>
+            <li><a href="../catalogue.html">Каталог</a></li>
+            <li><a href="../contacts.html">Контакты</a></li>
+        </ul>
+    </div>
+    <div class="description">
+        <hr>
+        <h1>Оптическая мышь</h1>
+        <a href="../img/big/mouse.jpg" target="_blank"><img src="../img/small/mouse.jpg" alt="mouse"></a>
+        <h4>Описание товара</h4>
+        <p class="short">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed laboriosam dolorem accusamus iure deserunt aperiam, excepturi neque nihil enim minima aliquam, quidem soluta corporis! Facilis mollitia, cupiditate minima veniam hic?</p>
+        <h4>Характеристики товара</h4>
+        <table>
+            <tr>
+                <td> Модель </td>
+                <td> A100 </td>
+                <td> A200 </td>
+                <td> A300 </td>
+            </tr>
+            <tr>
+                <td> Длина шнура, м </td>
+                <td> 1 </td>
+                <td> 2 </td>
+                <td> 3 </td>
+            </tr>
+            <tr>
+                <td> Высота, мм </td>
+                <td> 37 </td>
+                <td colspan="2"> - </td>
+            </tr>
+            <tr>
+                <td> Ширина, мм </td>
+                <td rowspan="2"> 70 </td>
+                <td> - </td>
+                <td> 85 </td>
+            </tr>
+            <tr>
+                <td> Длина, мм </td>
+                <td> 100 </td>
+                <td> 120 </td>
+            </tr>
+        </table>
+        <ul class="figures">
+            <li>DPI: 800</li>
+            <li>Клавиши
+                <ol>
+                    <li>Левая клавиша</li>
+                    <li>Правая клавиша</li>
+                    <li>Средняя клавиша(колёсико)</li>
+                    <li>Боковая лавиша вверх/назад</li>
+                    <li>Боковая клавиша вниз/вперёд</li>
+                </ol>
+            </li>
+        </ul>
+        <h4>Подробное описание</h4>
+        <p class="long">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores dicta consequuntur, iusto temporibus adipisci, nemo rem, dolore asperiores, veniam nam ullam perspiciatis! Rem eius aliquid voluptatem quas tempora debitis deserunt sed placeat&nbsp;eaque ea repellat, sint accusantium voluptatum repellendus pariatur dolores fugiat totam, facilis ducimus, quod aspernatur, omnis earum. Vitae et aliquid voluptatem odit labore eaque ullam? Maxime facere quia earum, expedita excepturi minima labore ex praesentium, dicta dolorum pariatur adipisci est neque laboriosam! Nam, voluptas reiciendis natus consectetur quia!</p>
+        <h4>Рекомендации по применению</h4>
+        <p class="recommend">Мыши одинаково удобны для игр и&nbsp;работы на&nbsp;ПК</p>
+        <hr> </div>
     <!--Копирайт не типографировался-->
-    <h6>Все права защищены &copy;</h6> </body>
+    <div class="footer">
+        <h6>Все права защищены &copy;</h6> </div>
+</body>
 
 </html>
