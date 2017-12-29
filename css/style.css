@@ -8,6 +8,12 @@ body{
     list-style-type: none;
 }
 
+.header img{
+    height: 90px;
+    margin-right: 8px;    
+    float:left;
+}
+
 .menu>li>a{
     color: burlywood;
 }
@@ -93,6 +99,17 @@ form>input[type="reset"]{
     border-collapse: collapse;
 }
 
+.description a img{
+    outline-color: chartreuse;
+    outline-width: 1px;
+    outline-style: solid;
+    height: 200px;
+}
+
+.description a img:hover{
+    outline-style: none;
+}
+
 .description table tr:first-child{
     height: 20px;
 }
@@ -108,13 +125,3 @@ form>input[type="reset"]{
     display: table-cell;
 }
 
-.catalog img{
-    outline-color: chartreuse;
-    outline-width: 1px;
-    outline-style: solid;
-    height: 200px;
-}
-
-.catalog img:hover{
-    outline-style: none;
-}
