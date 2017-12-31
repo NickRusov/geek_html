@@ -1,46 +1,77 @@
-body{
+body {
     background-color: #f8f8f8
 }
 
-.menu{
+.container {
+    width: 98%;
+    margin: 0 auto;
+}
+
+.header {
+    height: 110px;
+    text-align: right;
+    background-image: url(../img/all.jpg);
+    background-color: whitesmoke;
+    background-size: auto;
+    background-blend-mode: lighten;
+}
+
+.header img {
+    height: 90px;
+    margin: 10px;
+    float: left;
+    outline: 2px solid lightgrey;
+}
+
+.menu li {
     font-family: fantasy;
     font-size: 1.5em;
     list-style-type: none;
+    display: inline-block;
 }
 
-.header img{
-    height: 90px;
-    margin-right: 8px;    
-    float:left;
-}
-
-.menu>li>a{
+.menu>li>a {
     color: burlywood;
 }
-.menu li a:hover{
-    color: forestgreen;
+
+.menu>li:hover {
+    background-color: forestgreen;
 }
 
-.menu li a:active{
+.menu>li:active {
     color: seagreen;
-    background: yellow;
+    background-color: yellow;
 }
 
-h4{
+.details {
+    position: relative;
+}
+
+.description {
+    display: inline;
+    position: absolute;
+}
+
+.details h4 {
     color: black;
     font-size: 18px;
     font-weight: 400;
     background-color: #eaeaea;
 }
 
-.short{
+.short {
     text-decoration-color: #707070;
     font-size: 14px;
     font-style: italic;
     line-height: 1px;
+    display: inline;
 }
 
-.long{
+.details>h4 {
+    clear: both;
+}
+
+.long {
     color: #484343;
     font-size: 16px;
     font-weight: 400;
@@ -48,11 +79,14 @@ h4{
     text-align: left;
 }
 
-.short::first-letter, .long::first-letter, .recommend::first-letter{
+.short::first-letter,
+.long::first-letter,
+.recommend::first-letter {
     font-size: 45px;
     font-family: fantasy;
 }
-.figures{
+
+.figures {
     list-style-type: upper-alpha;
     color: #00b000;
     font-family: monospace;
@@ -60,68 +94,114 @@ h4{
     list-style-image: url(../img/marker.jpg);
 }
 
-form>input[name="name"], form>input[name="email"]{
-    color: lightblue;
-    font-family: monospace;
-    font-size: 25px;
-    width: 180px;
-    height: 45px;
-    ::-webkit-input-placeholder: color: blue;
+.details a img {
+    outline-color: chartreuse;
+    outline-width: 1px;
+    outline-style: solid;
+    height: 200px;
+    float: left;
+    margin: 10px;
 }
 
-form>input[name="email"]:focus{
-    background-color: gray;
-    color: orangered;
+.details a img:hover {
+    outline-style: none;
 }
 
-
-form>textarea{
-    color: blue;
-    font-family: monospace;
-    font-size: 16px;
-    text-transform: capitalize;
+.details input[type="button"] {
+    position: absolute;
+    height: 30px;
+    width: 120px;
+    border-radius: 10px;
 }
 
-form>input[type="submit"]{
-    color: lightgreen;
-    background-color: saddlebrown;
+.details input[type="button"]:hover {
+    background-color: lightsalmon;
 }
 
-form>input[type="reset"]{
-    color: #ff283c;
-    background-color: saddlebrown;
+.details input[type="button"]:active {
+    background-color: gold;
 }
 
-.description table{
+.details table {
     border: 1px solid #000;
     width: 400px;
     height: 500px;
     border-collapse: collapse;
 }
 
-.description a img{
-    outline-color: chartreuse;
-    outline-width: 1px;
-    outline-style: solid;
-    height: 200px;
-}
-
-.description a img:hover{
-    outline-style: none;
-}
-
-.description table tr:first-child{
+.details table tr:first-child {
     height: 20px;
 }
 
-.description td{
+.details td {
     border: 1px solid #000;
     vertical-align: middle;
     text-align: center;
 }
 
-.catalog .product{
+.catalog .product {
     text-align: center;
-    display: table-cell;
+    margin-right: 15px;
+    float: left;
 }
 
+.catalog .product img {
+    outline: 1px solid black;
+    height: 150px;
+}
+
+.feedback {
+    display: inline;
+}
+
+/*
+.feedback .map {
+    width: 100%;
+    height: 374px;
+}
+*/
+
+form>input[name="name"],
+form>input[name="email"] {
+    color: lightblue;
+    font-family: monospace;
+    font-size: 25px;
+    width: 180px;
+    height: 45px;
+    : : -webkit-input-placeholder: color: blue;
+}
+
+form>input[name="email"]:focus {
+    background-color: gray;
+    color: orangered;
+}
+
+form>textarea {
+    color: blue;
+    font-family: monospace;
+    font-size: 16px;
+    text-transform: capitalize;
+}
+
+form>input[type="submit"] {
+    color: lightgreen;
+    background-color: saddlebrown;
+}
+
+form>input[type="reset"] {
+    color: #ff283c;
+    background-color: saddlebrown;
+}
+
+.footer {
+    height: 100px;
+    clear: both;
+    background-color: gray;
+    text-align: right;
+}
+
+.footer h6 {
+    margin-top: 10px;
+    margin-right: 10px;
+    color: aliceblue;
+}
