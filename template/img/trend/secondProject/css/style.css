@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,900&subset=cyrillic,cyrillic-ext,latin-ext');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    s
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container,
+.slider,
+.header {
+    width: 1366px;
+}
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.slider {
+    background: url(../img/slider.jpg);
+    height: 800px;
+}
+
+.header {
+    text-align: right;
+    height: 90px;
+}
+
+.header .logo {
+    padding: 63px 0 0 98px;
+    float: left;
+}
+
+.menu {
+    padding: 65px 0 0 0;
+}
+
+.menu ul {
+    padding-left: 0;
+    padding-right: 167px;
+    margin: 0 0 0 0;
+}
+
+.menu li {
+    margin-right: 20px;
+    display: inline;
+}
+
+.menu a {
+    color: #8c8c8c;
+    font-size: 0.875em;
+    font-weight: 300;
+    line-height: 3.429;
+    text-align: right;
+}
+
+.menu a:hover {
+    color: #212121;
+    font-weight: 700;
+    box-shadow: 0 3px 0 0 #212121;
+}
+
+.text {
+    margin: 288px 0 0 98px;
+    width: 490px;
+}
+
+.text h3 {
+    color: #43a047;
+    font-size: 1.125em;
+    font-weight: 700;
+    line-height: 2.667;
+    margin-bottom: 22px;
+}
+
+.text h1 {
+    color: #212121;
+    font-size: 3.875em;
+    font-weight: 100;
+    line-height: 1.161;
+    margin-bottom: 34px;
+}
+
+.text p {
+    color: #6c6c6c;
+    font-size: 0.875em;
+    font-weight: 300;
+    line-height: 1.714;
+    margin-bottom: 32px;
+}
+
+.text p,
+.text h3,
+.text h1 {
+    text-align: left;
+}
+
+.orderUs {
+    background: #ffffff;
+    box-shadow: 0px 2px 4.85px 0.15px rgba(33, 33, 33, 0.35);
+    width: 212px;
+    height: 45px;
+    border: 0;
+    border-radius: 22.5px 22.5px;
+    color: #212121;
+    font-size: 1.125em;
+    font-weight: 700;
+    line-height: 1.333;
+    text-align: center;
+}
+
+.orderUs:hover {
+    background: #ffffff url(../img/arrow.png) no-repeat 173px 16px;
+}
+
+.navigation {
+    margin: 60px 0 19px 623px;
+    width: 120px;
+    height: 40px;
+}
+
+.navi {
+    background-color: #c6c6c6;
+    width: 30px;
+    height: 30px;
+    border: 0;
+    border-radius: 50%;
+    margin: 10px 0 10px 0;
+}
+
+.navi:hover {
+    background-color: #212121;
+    width: 40px;
+    height: 40px;
+    margin: 0;
+}
