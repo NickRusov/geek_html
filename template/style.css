@@ -346,3 +346,46 @@ a.explore {
     color: #212121;
     font-size: 18px;
 }
+
+.apps {
+    background-image: url(img/apps/back-img.jpg);
+    height: 516px;
+    width: 1366px;
+}
+
+.apps h3 {
+    padding-top: 125px;
+    margin-left: 99px;
+    color: #6c6c6c;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: left;
+}
+
+.apps h1 {
+    margin-left: 106px;
+    margin-top: 7px;
+    max-width: 500px;
+    color: #212121;
+    font-size: 62px;
+    font-weight: 100;
+    line-height: 72px;
+    text-align: left;
+}
+
+.apps h4 {
+    margin-left: 99px;
+    margin-top: 26px;
+    color: #6c6c6c;
+    font-size: 22px;
+    font-weight: 300;
+    line-height: 24px;
+    text-align: left;
+}
+
+.apps img:first-of-type{
+    margin-left: 98px;
+    margin-right: 10px;
+    margin-top: 33px;
+}
