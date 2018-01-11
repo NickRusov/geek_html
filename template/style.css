@@ -384,8 +384,100 @@ a.explore {
     text-align: left;
 }
 
-.apps img:first-of-type{
+.apps img:first-of-type {
     margin-left: 98px;
     margin-right: 10px;
     margin-top: 33px;
 }
+
+.footer {
+    background-color: #f7f7f7;
+    max-width: 1366px;
+    height: 384px;
+}
+
+.footer h3 {
+    color: #6c6c6c;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: left;
+}
+
+.footer .contacts,
+.footer .info,
+.footer .subscribe {
+    float: left;
+    margin-left: 80px;
+    margin-top: 120px;
+}
+
+.footer .info p {
+    float: left;
+    margin-right: 100px;
+    color: #212121;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 26px;
+    text-align: left;
+}
+.footer .info img {
+    clear: both;
+    display: block;
+    margin-left: 180px;
+    margin-top: 175px;
+}
+
+.footer .subscribe {
+    max-width: 363px;
+}
+
+.footer .subscribe .email {
+    margin-top: 26px;
+    border-width: 1px;
+    border-color: #d9dee1;
+    border-style: solid;
+    background-color: #ffffff;
+    width: 368px;
+    height: 46px;
+}
+
+.footer .subscribe .email input {
+    border: none;
+    line-height: 46px;
+}
+
+.footer .subscribe .email img {
+    margin-top: 5px;
+    float: right;
+}
+
+.footer .contacts p,
+.footer .info p,
+.footer .subscribe p {
+    margin-top: 24px;
+}
+
+.footer .contacts h6{
+    color: #6c6c6c;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 26px;
+    text-align: left;
+    margin-top: 77px;
+}
+
+.footer .subscribe h6 {
+    color: #6c6c6c;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 26px;
+    text-align: left;
+    float: right;
+    margin-top: 42px;
+}
+
+.footer>h6{
+/*    clear: both;*/
+}
+
