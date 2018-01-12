@@ -98,8 +98,15 @@ body {
     font-size: 18px;
 }
 
-.header .text a:hover::after {
-    content: ">";
+.header .text a:hover img.arrow {
+    opacity:1;   
+}
+
+.arrow{
+    float: right;
+    margin-right: 10px;
+    margin-top: 16px;
+    opacity:0;
 }
 
 .featured .links {
@@ -421,6 +428,7 @@ a.explore {
     line-height: 26px;
     text-align: left;
 }
+
 .footer .info img {
     clear: both;
     display: block;
@@ -458,7 +466,7 @@ a.explore {
     margin-top: 24px;
 }
 
-.footer .contacts h6{
+.footer .contacts h6 {
     color: #6c6c6c;
     font-size: 12px;
     font-weight: 700;
@@ -477,7 +485,6 @@ a.explore {
     margin-top: 42px;
 }
 
-.footer>h6{
-/*    clear: both;*/
+.footer>h6 {
+    /*    clear: both;*/
 }
-
