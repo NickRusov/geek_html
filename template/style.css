@@ -1,6 +1,8 @@
 @import('https://fonts.googleapis.com/css?family=Montserrat:100,300,700');
+html,
 body {
     font-family: 'Montserrat', sans-serif;
+    height: 100%;
 }
 
 * {
@@ -9,11 +11,16 @@ body {
 }
 
 .container {
-    width: 1366;
+    min-width: 100%;
     margin: 0 auto;
+    min-height: 100%;
 }
 
 .header {
+    background-color: #f7f7f7;
+}
+
+.header.index {
     background-image: url(img/slider-img.jpg);
     height: 800px;
 }
@@ -99,14 +106,14 @@ body {
 }
 
 .header .text a:hover img.arrow {
-    opacity:1;   
+    opacity: 1;
 }
 
-.arrow{
+.arrow {
     float: right;
     margin-right: 10px;
     margin-top: 16px;
-    opacity:0;
+    opacity: 0;
 }
 
 .featured .links {
@@ -399,7 +406,12 @@ a.explore {
 
 .footer {
     background-color: #f7f7f7;
-    max-width: 1366px;
+    min-width: 100%;
+    height: 384px;
+    margin-top: -384px;
+}
+
+.clr {
     height: 384px;
 }
 
@@ -485,6 +497,69 @@ a.explore {
     margin-top: 42px;
 }
 
-.footer>h6 {
-    /*    clear: both;*/
+h2.contact-us {
+    margin-left: 98px;
+    margin-top: 170px;
+    padding-bottom: 56px;
+    color: #212121;
+    font-size: 62px;
+    font-weight: 100;
+    line-height: 72px;
+}
+
+.row {
+    padding-left: 98px;
+    padding-bottom: 122px;
+}
+
+.row>.subsidiary {
+    outline: 1px solid black;
+    text-align: center;
+    margin-top: 127px;
+    max-width: 370px;
+    max-height: 370px;
+    float: none;
+    margin-right: auto;
+    margin-left: auto;
+    padding-bottom: 50px;    
+}
+
+.row>.subsidiary>img {
+    margin-top: 48px;
+}
+
+.row h3 {
+    color: #212121;
+    font-size: 21.91px;
+    font-weight: 700;
+    line-height: 30px;
+    text-align: center;
+    transform: scaleX(1.0041);
+    margin-top: 34px;
+}
+
+.contact-title {
+    margin-top: 10px;
+    color: #6c6c6c;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20.082px;
+    text-align: center;
+}
+
+.contact-value {
+    color: #212121;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20.082px;
+    text-align: center;
+}
+
+.contact-value.address {
+    color: #6c6c6c;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 20.082px;
+    text-align: center;
+    transform: scaleX(1.0041);
 }
