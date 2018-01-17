@@ -168,8 +168,10 @@ form>input[name="email"] {
     font-size: 25px;
     width: 180px;
     height: 45px;
-    : : -webkit-input-placeholder: color: blue;
 }
+
+form>input[name="name"]::-webkit-input-placeholder,
+form>input[name="email"]::-webkit-input-placeholder{color: blue;}
 
 form>input[name="email"]:focus {
     background-color: gray;
