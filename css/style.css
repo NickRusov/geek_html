@@ -48,20 +48,15 @@ body {
     background-color: yellow;
 }
 
-.details {
-    position: relative;
-}
-
-.description {
-    display: inline;
-    position: absolute;
-}
-
 .details h4 {
     color: black;
     font-size: 18px;
     font-weight: 400;
     background-color: #eaeaea;
+    overflow: hidden;
+}
+
+h4.char{
     clear: both;
 }
 
@@ -70,14 +65,8 @@ body {
     font-size: 14px;
     font-style: italic;
     line-height: 1px;
-    display: inline-block;
+    display: inline;
 }
-
-/*
-.details>h4 {
-    
-}
-*/
 
 .long {
     color: #484343;
@@ -113,6 +102,10 @@ body {
 
 .details a img:hover {
     outline-style: none;
+}
+
+@media screen and (max-width: 433px){
+    .details a img {float: none; display: block;}
 }
 
 .details input[type="button"] {
