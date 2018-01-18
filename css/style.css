@@ -14,6 +14,7 @@ body {
     background-color: whitesmoke;
     background-size: auto;
     background-blend-mode: lighten;
+    min-width: 300px;
 }
 
 .header img {
@@ -28,6 +29,10 @@ body {
     font-size: 1.5em;
     list-style-type: none;
     display: inline-block;
+}
+
+@media screen and (max-width: 480px) {
+     .menu li { display: block; }
 }
 
 .menu>li>a {
@@ -57,6 +62,7 @@ body {
     font-size: 18px;
     font-weight: 400;
     background-color: #eaeaea;
+    clear: both;
 }
 
 .short {
@@ -64,12 +70,14 @@ body {
     font-size: 14px;
     font-style: italic;
     line-height: 1px;
-    display: inline;
+    display: inline-block;
 }
 
+/*
 .details>h4 {
-    clear: both;
+    
 }
+*/
 
 .long {
     color: #484343;
@@ -153,13 +161,6 @@ body {
 .feedback {
     display: inline;
 }
-
-/*
-.feedback .map {
-    width: 100%;
-    height: 374px;
-}
-*/
 
 form>input[name="name"],
 form>input[name="email"] {
