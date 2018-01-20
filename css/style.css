@@ -164,6 +164,13 @@ form>input[name="email"] {
     height: 45px;
 }
 
+form>input[name="name"]::-moz-placeholder ,
+form>input[name="email"]::-moz-placeholder {color: blue;}
+
+
+form>input[name="name"]:-ms-input-placeholder,
+form>input[name="email"]:-ms-input-placeholder {color: blue;}
+
 form>input[name="name"]::-webkit-input-placeholder,
 form>input[name="email"]::-webkit-input-placeholder{color: blue;}
 
